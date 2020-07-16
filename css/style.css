@@ -62,17 +62,17 @@ p {
   color: #333;
 }
 
-bg-dark {
+.bg-dark {
   background: #333;
   color: #fff;
 }
 
-bg-light {
+.bg-light {
   background: #f4f4f4;
   color: #333;
 }
 
-bg-primary {
+.bg-primary {
   background: #333;
   color: #f7c08a;
 }
@@ -135,7 +135,7 @@ bg-primary {
   line-height: 1.7em;
 }
 
-/* Home Infor */
+/* Home Info */
 #home-info {
   height: 400px;
 }
