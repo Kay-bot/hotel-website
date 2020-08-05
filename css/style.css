@@ -275,6 +275,10 @@ p {
   outline: none;
   border-color: #f7c08a;
 }
+
+#contact-form button {
+  width: 100%;
+}
 /* Footer */
 #main-footer {
   text-align: center;
