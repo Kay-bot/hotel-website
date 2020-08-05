@@ -41,7 +41,7 @@
       <div class="container">
         <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
         <p>Please fill out the form below to contact us</p>
-        <form action="process.php">
+        <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" />
@@ -53,8 +53,11 @@
           <div class="form-group">
             <label for="message">Message</label>
             <textarea type="message" name="message" id="message"></textarea>
-            <button type="submit" class="btn">Submit</button>
           </div>
+          <div class="my-2">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <button type="submit" class="btn">Submit</button>
         </form>
       </div>
     </section>
